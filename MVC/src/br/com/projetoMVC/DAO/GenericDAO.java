@@ -6,7 +6,7 @@ public interface GenericDAO {
 
     public List<Object> listarTodos();
 
-    public Object listarPorId();
+    public Object listarPorId(int id);
 
     public boolean cadastrar(Object object);
 
